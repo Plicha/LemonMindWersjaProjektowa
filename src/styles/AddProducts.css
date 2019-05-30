@@ -1,0 +1,13 @@
+.addProducts .row{
+    padding: 2%;
+}
+.addProducts h4{
+    margin-top: 0;
+}
+.addProducts .btn-small{
+    margin-top: 1rem;
+}
+.type label{
+    font-size: .8em;
+    transform: translate(0,-1.2rem)
+}

@@ -1,0 +1,20 @@
+label{
+    color: #444 !important;
+}
+i.orange-icon{ 
+    color: orange;
+    font-size: 5.5em;
+    -webkit-text-stroke: .25vh #fff;
+}
+#from , #destination ,select{
+    border-bottom: 1px solid orange;
+    box-shadow: 0 1px 0 0 orange;
+}
+select{
+    display: unset;
+    border-color: #8888;
+}
+#from:focus , #destination:focus ,select:focus {
+    border-bottom: 1px solid #ff3d00 ;
+    box-shadow: 0 1px 0 0 #ff3d00 ;
+}

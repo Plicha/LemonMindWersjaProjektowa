@@ -1,0 +1,58 @@
+#formTitle{
+    display: flex;
+    flex-direction: row;
+}
+#formTitle h4{ text-align: center; }
+label{
+    color: #444 !important;
+}
+i.orange-icon{ 
+    color: orange;
+    font-size: 5.5em;
+    -webkit-text-stroke: .25vh #fff;
+}
+#from , #destination ,select ,#weight,#nameProduct{
+    border-bottom: 1px solid orange;
+    box-shadow: 0 1px 0 0 orange;
+}
+select{
+    display: unset;
+    border-color: #8888;
+}
+#from:focus , #destination:focus ,select:focus ,#weight:focus,#nameProduct:focus{
+    border-bottom: 1px solid #ff3d00 ;
+    box-shadow: 0 1px 0 0 #ff3d00 ;
+}
+::-webkit-inner-spin-button { display: none; }
+/* Drop */
+.custom-file-input{
+    width: 100%;
+}
+.custom-file-input::-webkit-file-upload-button{
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    height: 20vh;
+    content: '';
+    width: 100%;
+    display: inline-block;
+    background: #eee;
+    border: .2vh solid #ddd;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  .custom-file-input:hover::before {
+    border-color: #8888;
+  }
+  .custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
+  .fileName{
+    z-index: 10;
+    transform: translate(0,-15vh);
+  }

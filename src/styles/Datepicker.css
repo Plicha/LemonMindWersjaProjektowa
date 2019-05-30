@@ -1,0 +1,15 @@
+#dateSection{
+    padding: 5%;
+}
+
+.dateDescription p{
+    color: #888;
+    font-size: .85em;
+    margin-left: 5%;
+}
+.dateDescription .container{
+    margin-top: 10%;
+    padding: 5%;
+    border-radius: 1vh;
+    background: #eee;
+}
